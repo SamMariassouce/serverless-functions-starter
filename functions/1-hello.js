@@ -7,7 +7,7 @@
 
 // const person = { name: 'john' };
 
-exports.handler = async (event, context) => {
+exports.handler = async (event, context, cb) => {
   // console.log(event);
   return {
     statusCode: 200,
